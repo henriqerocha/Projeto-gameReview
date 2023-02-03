@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #ED5A0E;
+    height: 8vh;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.topo span{
+    color: #ffffff;
+    font-size: 36px;
+}
+.topo span::first-letter{
+    font-weight: bold;
+    font-size: 50px;
+}
+#banner{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 30px;
+}
+.capa{
+    background-image: url('img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h3{
+    margin: 40px 0;
+    font-size: 28px;
+}
+main{
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+section{
+    width: 100%;
+}
+#melhor-avaliado{
+    width: 100%;
+}
+.flex-row{
+    flex-direction: row;
+}
+.img-overflow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: calc(100%/2); */
+    width: 100%;
+    overflow-x: scroll;
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 15px;
+}
+.topo-card{
+    width: 100%;
+    height: 40px;
+    background-color: #ED5A0E;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-card{
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.center span{
+    width: 100%;
+}
+.base-card{
+    width: 100%;
+    height: 40px;
+    background-color: #ED5A0E;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#melhor-avaliado p{
+    margin-bottom: 30px;
+}
+
+/* teste */
+.jogos-avaliados {
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
+    overflow-x: scroll;
+}
+figure img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+figcaption, figure span {
+    margin: 12px 0;
+    padding: 12px 5px;
+    text-align: center;
+    background: #ed5a0e;
+}
+#sobre p:last-child{
+    background-color: #ED5A0E;
+}
+#criterios p:last-child{
+    background-color: #ED5A0E;
+}
+section::first-letter{
+    font-size: 50px;
+}
